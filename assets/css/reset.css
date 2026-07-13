@@ -32,8 +32,8 @@ body {
     line-height: 1.5;
     text-size-adjust: 100%;
     font-family: system-ui, sans-serif;
-    background: #fff;
-    color: #000;
+    background: #ffffff;
+    color: #000000;
 }
 
 img, picture, video, canvas, svg {
