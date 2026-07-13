@@ -1,9 +1,12 @@
 :root{
-    --color-primary: #020202, #0F0F0F, #01231C, #253d38, #355750, #355749, #013227, #013220;
+    --color-primary:  #0F0F0F;
+     /*, #01231C, , #355750, #355749, #013227, #013220; */
+    --color-secundaria: #1e1f1e;
 
-    --color-secundaria: #B8C3B5, #B7C3B5, #80887F, #F7FFF6;
+     /* #B8C3B5, #B7C3B5, #80887F, #F7FFF6; */
     /* texto */
-    --color-font: #E6FFFA, #F3FFFA, #CDFFF4, #C1FFF1, #CFFFCF, #CCFFC4;
+    --color-font: #E6FFFA;
+    /* #F3FFFA, #CDFFF4, #C1FFF1, #CFFFCF, #CCFFC4; */
     /* botão */
     --colo-design: #82FFE4, #32CD32, #9FFF9F, #33FF14;
 
