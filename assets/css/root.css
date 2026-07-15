@@ -8,7 +8,7 @@
     --color-font: #E6FFFA;
     /* #F3FFFA, #CDFFF4, #C1FFF1, #CFFFCF, #CCFFC4; */
     /* botão */
-    --colo-design: #82FFE4, #32CD32, #9FFF9F, #33FF14;
+     --color-design: #33FF14 ; /* #82FFE4, #32CD32, #9FFF9F, */
 
 }
 :root{
