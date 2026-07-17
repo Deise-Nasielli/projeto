@@ -2,8 +2,9 @@
     --color-primary:  #0F0F0F;
      /*, #01231C, , #355750, #355749, #013227, #013220; */
     --color-secundaria: #1e1f1e;
+    --color-background: #2f332f;
 
-     /* #B8C3B5, #B7C3B5, #80887F, #F7FFF6; */
+     /* #B8C3B5, #B7C3B5, #F7FFF6; */
     /* texto */
     --color-font: #E6FFFA;
     /* #F3FFFA, #CDFFF4, #C1FFF1, #CFFFCF, #CCFFC4; */

@@ -12,7 +12,11 @@
     <link rel="stylesheet" href="./assets/css/base.css">
     <link rel="stylesheet" href="./assets/css/header.css">
     <link rel="stylesheet" href="./assets/css/hero.css">
-    <link href="https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&family=Oxanium:wght@200..800&family=Playball&family=Space+Grotesk:wght@300..700&display=swap"rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&family=Oxanium:wght@200..800&family=Playball&family=Space+Grotesk:wght@300..700&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
@@ -52,80 +56,97 @@
         <section class="prova-social">
             <!-- Prova Social -->
             <div class="card-container">
-                <div>
+                <div class="card-item">
                     <a href="#">
                         <img src="./assets/imagns/icons/Favorite.png" alt=""></a>
-                    <h3>39</h3>
+                    <h3 class="counter-number" data-target="39">0</h3>
                     <p>Anos</p>
                 </div>
-                <div>
+                <div class="card-item">
                     <a href="#">
                         <img src="./assets/imagns/icons/City Buildings.png" alt=""></a>
-                    <h3>12</h3>
+                    <h3 class="counter-number" data-target="12">0</h3>
                     <p>Bancos e Financeiras</p>
                 </div>
-                <div>
+                <div class="card-item">
                     <a href="#">
                         <img src="./assets/imagns/icons/Centralized Network.png" alt=""></a>
-                    <h3>50.999</h3>
+                    <h3 class="counter-number" data-target="50.999">0</h3>
                     <p>Interações digitais mês</p>
                 </div>
-                <div>
+                <div class="card-item">
                     <a href="#">
                         <img src="./assets/imagns/icons/partnership-handshake.png" alt=""></a>
-                    <h3>34.5285</h3>
+                    <h3 class="counter-number" data-target="34.5285">0</h3>
                     <p>Negócios mês</p>
                 </div>
             </div>
         </section>
-        <section class="sobre">
+        <section class="container-sobre">
             <!-- Quem somos carrossel -->
-            <div>
+            <div class="sobre">
                 <h2>Quem Somos</h2>
-                <p>Com uma história sólida e consolidada no mercado de recuperação de ativos, a Decisão acumula 34 anos
+                <p>Com uma história sólida e consolidada no mercado de recuperação de ativos, a Decisão acumula 39 anos
                     de experiência pautados pela excelência e credibilidade. Com atuação em todo o território nacional,
                     a empresa desenvolveu uma estrutura robusta para atender com alta performance aos mais exigentes
                     setores do mercado.</p>
             </div>
-            <div class="corrossel">
-                <div class="card-quem-somos">
-                    <img src="" alt="">
-                    <h2>Sobre Nós</h2>
-                    <p>Com forte atuação em todo o mercado nacional, atendemos empresas de todos os portes e segmentos
-                        com soluções eficientes em recuperação de ativos. Nosso compromisso é ser a principal referência
-                        no setor de cobrança, trabalhando de forma ética, competente e com um olhar totalmente focado
-                        nas necessidades de cada cliente. Para isso, sustentamos nossa trajetória em pilares sólidos de
-                        transparência e confiabilidade, promovendo o desenvolvimento contínuo de nossos colaboradores e
-                        integrando novas tecnologias à nossa sólida expertise para entregar sempre a máxima excelência
-                        em nossos serviços.</p>
-                    <div>
-                        <h6>Missão</h6>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta assumenda nesciunt nihil
-                            dolorem alias quasi!</p>
-                    </div>
-                    <div>
-                        <h6>Visão</h6>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta assumenda nesciunt nihil
-                            dolorem alias quasi!</p>
-                    </div>
-                    <div>
-                        <h6>Valores</h6>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta assumenda nesciunt nihil
-                            dolorem alias quasi!</p>
+            <div class="container-carrossel">
+                <div class="slyder">
+                    <img src="./assets/imagns/img/missao.png" alt="">
+                    <div class="info">
+                        <h2>Sobre Nós</h2>
+                        <p>Com forte atuação em todo o mercado nacional, atendemos empresas de todos os portes e
+                            segmentos
+                            com soluções eficientes em recuperação de ativos. Nosso compromisso é ser a principal
+                            referência
+                            no setor de cobrança, trabalhando de forma ética, competente e com um olhar totalmente
+                            focado
+                            nas necessidades de cada cliente. Para isso, sustentamos nossa trajetória em pilares sólidos
+                            de
+                            transparência e confiabilidade, promovendo o desenvolvimento contínuo de nossos
+                            colaboradores e
+                            integrando novas tecnologias à nossa sólida expertise para entregar sempre a máxima
+                            excelência
+                            em nossos serviços.</p>
+                        <div class="container-itens">
+                            <div class="itens">
+                                <h6>Missão</h6>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. !</p>
+                            </div>
+                            <div class="itens">
+                                <h6>Visão</h6>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. !</p>
+                            </div>
+                            <div class="itens">
+                                <h6>Valores</h6>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.!</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div>
-                    <img src="" alt="">
-                    <h2>Gestão de pessoas</h2>
-                    <p>Investimento constante em um ambiente de trabalho saudável, campanhas motivacionais e avaliações
-                        frequentes, garantindo que a equipe esteja sempre engajada em entregar o melhor resultado.</p>
+
+                <div class="slyder">
+                    <img src="./assets/imagns/img/gestao-pessoas.png" alt="">
+                    <div class="info">
+                        <h2>Gestão de pessoas</h2>
+                        <p>Investimento constante em um ambiente de trabalho saudável, campanhas motivacionais e
+                            avaliações
+                            frequentes, garantindo que a equipe esteja sempre engajada em entregar o melhor resultado.
+                        </p>
+                    </div>
                 </div>
-                <div>
-                    <img src="" alt="">
-                    <h2>Data Driven</h2>
-                    <p>Dados = mais chances de acertos. Cada decisão tomada com base em dados tem mais informação, menos
-                        viés e maior probabilidade de sucesso. não é sobre eliminar o erro - é sobre maximizar o acerto.
-                    </p>
+
+                <div class="slyder">
+                    <img src="./assets/imagns/img/analise-dados.png" alt="">
+                    <div class="info">
+                        <h2>Data Driven</h2>
+                        <p>Dados = mais chances de acertos. Cada decisão tomada com base em dados tem mais informação,
+                            menos
+                            viés e maior probabilidade de sucesso. não é sobre eliminar o erro - é sobre maximizar o
+                            acerto.
+                        </p>
+                    </div>
                 </div>
             </div>
         </section>
@@ -342,7 +363,7 @@
                     <a href="#">dpo@decisao.com</a>
                 </li>
                 <li>
-                    Seg a  Sext 08:00 às 18:00
+                    Seg a Sext 08:00 às 18:00
                     <samp>Sáb 08:00 às 12:00</samp>
                 </li>
                 <li><a href="#">R. José Loureiro, 603, Terraço, Centro - Curitiba-PR. Cep 80010-000</a></li>
@@ -356,11 +377,11 @@
             <ul>
                 <span>Desempenho no Reclame Aqui</span>
                 <li><a href="#">
-                    <span>Nota: 7.14</span>
-                    <span>Soluções: 78.6%</span>
-                    <span>Novos Negócios: 50%</span>
-                    <span>Resposta: 1d 2h</span>
-                </a></li>
+                        <span>Nota: 7.14</span>
+                        <span>Soluções: 78.6%</span>
+                        <span>Novos Negócios: 50%</span>
+                        <span>Resposta: 1d 2h</span>
+                    </a></li>
             </ul>
         </div>
         <hr>
@@ -368,6 +389,43 @@
             <p>Copyright 2026 Decisão Cobraças</p>
         </div>
     </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const counters = document.querySelectorAll('.counter-number');
+            const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+            counters.forEach((counter) => {
+                const target = parseFloat(counter.dataset.target || '0');
+                const rawValue = counter.dataset.target || '0';
+                const decimals = rawValue.includes('.') ? rawValue.split('.')[1].length : 0;
+                const duration = 1400;
+                const startTime = performance.now();
+                const formatValue = (value) => value.toFixed(decimals);
+
+                const animate = (currentTime) => {
+                    const elapsed = currentTime - startTime;
+                    const progress = Math.min(elapsed / duration, 1);
+                    const eased = 1 - Math.pow(1 - progress, 3);
+                    const currentValue = target * eased;
+
+                    counter.textContent = formatValue(currentValue);
+
+                    if (progress < 1) {
+                        requestAnimationFrame(animate);
+                    } else {
+                        counter.textContent = formatValue(target);
+                    }
+                };
+
+                if (prefersReducedMotion) {
+                    counter.textContent = formatValue(target);
+                } else {
+                    requestAnimationFrame(animate);
+                }
+            });
+        });
+    </script>
 </body>
 
 </html>
